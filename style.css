@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C00000;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 150px; /* Ukuran logo */
+}
+
+.social-links {
+    margin: 20px 0;
+}
+
+.social-icon {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.nft-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.nft-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project-description {
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.gif-image {
+    width: 100%; /* Ukuran GIF */
+    max-width: 400px; /* Maksimum ukuran */
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.wallet-button {
+    display: block;
+    margin: 5px auto;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.wallet-button:hover {
+    background-color: #0056b3;
+}
