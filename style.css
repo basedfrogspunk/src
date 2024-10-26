@@ -1,0 +1,99 @@
+/* Styling dasar */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C00000;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Logo lebih kecil dari GIF dan NFT, tapi lebih besar dari ikon sosial */
+.logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+/* Atur ikon media sosial agar lebih kecil dan sejajar */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.social-icon img {
+    width: 25px;
+    height: 25px;
+}
+
+/* Grid NFT */
+.nft-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.nft-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Deskripsi proyek */
+.project-description {
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+/* Gambar GIF di tengah dan di bawah deskripsi */
+.gif-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.gif-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* Tombol Connect Wallet di bawah GIF dan di tengah */
+#connectWallet {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#connectWallet:hover {
+    background-color: #218838;
+}
+
+/* Tombol dompet */
+.wallet-button {
+    display: block;
+    margin: 5px auto;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.wallet-button:hover {
+    background-color: #0056b3;
+}
