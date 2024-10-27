@@ -3,7 +3,7 @@ body {
     background: url('https://ipfs.io/ipfs/QmW8yPsDrmYNen4JbSRCEj9L8m3wAeKygdw7onPUeX5M3b') no-repeat center center fixed;
     background-size: cover;
     text-align: center;
-    color: red;
+    color: #001EC3;
 }
 
 .logo {
@@ -19,7 +19,7 @@ body {
 .title {
     font-size: 2rem;
     margin: 20px 0;
-    color: black;
+    color: #001EC3;
 }
 
 .nft-gallery {
@@ -36,7 +36,7 @@ body {
 
 .description {
     margin: 20px 0;
-    color: black;
+    color: #001EC3;
 }
 
 .gif {
