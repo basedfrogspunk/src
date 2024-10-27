@@ -2,14 +2,14 @@ const providerOptions = {
     walletconnect: {
         package: window.WalletConnectProvider.default,
         options: {
-            infuraId: "YOUR_INFURA_PROJECT_ID", // Ganti dengan ID Infura kamu
+            infuraId: "5f6a2059e50245f1b8df50fe81d02ae2", // Ganti dengan ID Infura kamu
         },
     },
     coinbasewallet: {
         package: window.CoinbaseWalletProvider.default,
         options: {
             appName: "CheeseFrogs",
-            infuraId: "YOUR_INFURA_PROJECT_ID", // Ganti dengan ID Infura kamu
+            infuraId: "5f6a2059e50245f1b8df50fe81d02ae2", // Ganti dengan ID Infura kamu
         },
     },
 };
