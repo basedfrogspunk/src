@@ -1,0 +1,134 @@
+/* Mengatur margin dan padding default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background: url('https://ipfs.io/ipfs/QmW8yPsDrmYNen4JbSRCEj9L8m3wAeKygdw7onPUeX5M3b') no-repeat center center fixed;
+    background-size: cover;
+    color: #001EC3; /* Warna teks untuk judul dan deskripsi */
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk logo dan media sosial */
+.logo {
+    width: 150px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Gaya untuk judul Welcome */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #001EC3;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk wallet info */
+.wallet-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#walletAddress, #ethBalance {
+    color: #001EC3;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Gaya untuk tombol */
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#connectWallet {
+    background-color: green;
+    color: black;
+}
+
+#mintNFT {
+    background-color: blue;
+    color: black;
+}
+
+#disconnectWallet {
+    background-color: red;
+    color: white;
+}
+
+/* Gaya untuk gallery NFT */
+.nft-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.nft-gallery img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk deskripsi */
+.description {
+    font-size: 16px;
+    font-weight: bold;
+    color: #001EC3;
+    margin: 20px 0;
+}
+
+/* Gaya untuk gambar GIF */
+.gif-image {
+    width: 80px;
+    height: auto;
+    margin: 20px auto;
+}
+
+/* Gaya untuk tampilan supply */
+.supply {
+    font-weight: bold;
+    color: white;
+    background-color: #001EC3;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
