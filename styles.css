@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://ipfs.io/ipfs/QmW8yPsDrmYNen4JbSRCEj9L8m3wAeKygdw7onPUeX5M3b'); /* Ganti dengan gambar background Anda */
+    background-size: cover;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparan untuk kontras */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    width: 150px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.social-icons img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+.welcome-text {
+    color: #001EC3;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.nft-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.nft-images img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.description {
+    color: #001EC3;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.gif {
+    width: 300px; /* Ukuran gambar GIF */
+    margin: 20px 0;
+}
+
+.supply {
+    background-color: #001EC3;
+    color: white;
+    padding: 10px;
+    margin: 20px 0;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.wallet-info {
+    color: #001EC3;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.button {
+    background-color: green; /* Warna tombol Connect Wallet */
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#mintNFT {
+    background-color: blue; /* Warna tombol Mint NFT */
+}
+
+#disconnectWallet {
+    background-color: red; /* Warna tombol Disconnect */
+    color: white;
+}
+
+.button:hover {
+    opacity: 0.8; /* Efek hover untuk tombol */
+}
