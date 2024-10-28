@@ -1,0 +1,135 @@
+/* Reset CSS */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://ipfs.io/ipfs/QmW8yPsDrmYNen4JbSRCEj9L8m3wAeKygdw7onPUeX5M3b'); /* Ganti dengan URL GIF Anda */
+    background-size: cover;
+    background-position: center;
+    color: #001EC3; /* Warna teks untuk judul dan deskripsi */
+    text-align: center;
+}
+
+/* Logo Section */
+.logo {
+    margin: 20px 0;
+}
+
+.logo-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Social Media Links */
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.social-media-links a {
+    margin: 0 10px;
+}
+
+.social-media-links img {
+    width: 30px; /* Ukuran ikon sosial media */
+    height: 30px;
+}
+
+/* Welcome Message */
+.welcome-message {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* NFT Gallery */
+.nft-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.nft-gallery img {
+    width: 30%; /* Lebar gambar NFT, dapat disesuaikan */
+    margin: 10px; /* Jarak antar gambar */
+}
+
+/* Description Style */
+.description {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+/* GIF Image Style */
+.gif-container {
+    margin: 20px 0;
+}
+
+.gif-image {
+    max-width: 80%; /* Ukuran maksimal GIF */
+    height: auto;
+}
+
+/* Supply Display */
+.supply-display {
+    font-size: 1.5em;
+    margin: 20px 0;
+    background-color: #001EC3; /* Warna latar belakang untuk supply */
+    color: white; /* Warna teks untuk supply */
+    padding: 10px;
+    display: inline-block; /* Menyesuaikan ukuran dengan teks */
+}
+
+/* Wallet Info Style */
+.wallet-info {
+    margin: 20px 0;
+}
+
+/* Wallet Address and ETH Balance */
+#walletAddress, #ethBalance {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Button Style */
+.button {
+    background-color: green; /* Warna latar belakang untuk tombol Connect Wallet */
+    color: black; /* Warna teks tombol Connect Wallet */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 10px 0; /* Jarak antar tombol */
+    transition: background-color 0.3s;
+}
+
+#mintNFT {
+    background-color: blue; /* Warna latar belakang untuk tombol Mint NFT */
+    color: black; /* Warna teks untuk tombol Mint NFT */
+}
+
+#disconnectWallet {
+    background-color: red; /* Warna latar belakang untuk tombol Disconnect */
+    color: white; /* Warna teks untuk tombol Disconnect */
+}
+
+.button.hidden {
+    display: none; /* Menyembunyikan tombol yang tidak digunakan */
+}
+
+/* Responsive Style */
+@media (max-width: 768px) {
+    .nft-gallery img {
+        width: 45%; /* Ukuran gambar pada perangkat kecil */
+    }
+
+    .gif-image {
+        max-width: 100%; /* Ukuran GIF pada perangkat kecil */
+    }
+}
