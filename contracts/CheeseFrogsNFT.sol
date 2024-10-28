@@ -4,6 +4,7 @@ pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelincontracts/utils/Strings.sol";
 
 contract NFT is ERC721Enumerable, Ownable {
   using Strings for uint256;
