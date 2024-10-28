@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheeseFrogs NFT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="./images/CheeseFrogs.png" alt="CheeseFrogs Logo" class="logo">
+
+        <!-- Social Media Icons Section -->
+        <div class="social-media">
+            <a href="https://twitter.com/YOUR_TWITTER" target="_blank">
+                <img src="./images/Twitter.png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com/YOUR_INSTAGRAM" target="_blank">
+                <img src="./images/Instagram.png" alt="Instagram">
+            </a>
+            <a href="https://discord.com/YOUR_DISCORD" target="_blank">
+                <img src="./images/Discord.png" alt="Discord">
+            </a>
+            <a href="https://opensea.io/YOUR_OPENSEA" target="_blank">
+                <img src="./images/OpenSea.png" alt="OpenSea">
+            </a>
+            <a href="https://basescan.org/YOUR_BASESCAN" target="_blank">
+                <img src="./images/BaseScan.png" alt="BaseScan">
+            </a>
+        </div>
+
+        <h1>Welcome To CheeseFrogs</h1>
+
+        <!-- NFT Images Section -->
+        <div class="nft-gallery">
+            <img src="./images/1.png" alt="NFT 1">
+            <img src="./images/4.png" alt="NFT 2">
+            <img src="./images/106.png" alt="NFT 3">
+            <img src="./images/11.png" alt="NFT 4">
+            <img src="./images/240.png" alt="NFT 5">
+            <img src="./images/2.png" alt="NFT 6">
+            <img src="./images/3.png" alt="NFT 7">
+            <img src="./images/122.png" alt="NFT 8">
+            <img src="./images/91.png" alt="NFT 9">
+            <img src="./images/105.png" alt="NFT 10">
+            <img src="./images/8.png" alt="NFT 11">
+            <img src="./images/104.png" alt="NFT 12">
+        </div>
+
+        <!-- Description Section -->
+        <p class="description">
+            4.444 Timeless CheeseFrogs Collectibles Are Stored On The Base Blockchain.  
+            CheeseFrogs is a unique NFT collection that celebrates the beauty and joy of the CheeseFrogs world. Each NFT depicts a unique characteristic and colorful fantasy adventure.
+        </p>
+
+        <!-- GIF Image Section -->
+        <img src="./images/CheeseFrogs.gif" alt="CheeseFrogs Animation" class="center-gif">
+
+        <!-- Supply Tracker Section -->
+        <div id="supply-tracker">0/4444</div>
+
+        <!-- Wallet Section -->
+        <div id="wallet-section">
+            <button id="connect-wallet" onclick="connectWallet()">Connect Wallet</button>
+            <button id="mint-nft" onclick="mintNFT()" style="display: none;">Mint NFT</button>
+            <button id="disconnect" onclick="disconnectWallet()" style="display: none;">Disconnect</button>
+            <div id="wallet-info"></div>
+            <div id="total-payment"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
