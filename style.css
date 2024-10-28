@@ -53,7 +53,7 @@ body {
     margin: 10px 0;
 }
 
-button {
+.button {
     padding: 10px 20px;
     font-size: 16px;
     border: none;
@@ -62,29 +62,29 @@ button {
     margin: 10px;
 }
 
-#connectButton {
+.connectButton {
     background-color: #28a745; /* Warna biru */
     color: #fff;
 }
 
-#connectButton:hover {
+.connectButton:hover {
     background-color: #28a745; /* Warna gelap saat hover */
 }
 
-#disconnectButton {
+.disconnectButton {
     background-color: #dc3545; /* Warna merah untuk tombol Disconnect */
     color: #fff;
 }
 
-#disconnectButton:hover {
+.disconnectButton:hover {
     background-color: #c82333; /* Warna gelap saat hover */
 }
 
-#mintButton {
+.mintButton {
     background-color: #001EC3; /* Warna hijau untuk tombol Mint */
     color: #fff;
 }
 
-#mintButton:hover {
+.mintButton:hover {
     background-color: #001EC3; /* Warna gelap saat hover */
 }
