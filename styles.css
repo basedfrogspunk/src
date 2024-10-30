@@ -11,7 +11,7 @@ body {
     background-image: url('https://ipfs.io/ipfs/QmW8yPsDrmYNen4JbSRCEj9L8m3wAeKygdw7onPUeX5M3b'); /* Gambar latar belakang GIF */
     background-size: cover; /* Menyesuaikan gambar latar belakang agar menutupi seluruh layar */
     background-repeat: no-repeat; /* Menghindari pengulangan gambar */
-    color: white; /* Warna teks */
+    color: none; /* Warna teks */
 }
 
 /* Kontainer utama */
