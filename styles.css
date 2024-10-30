@@ -1,17 +1,9 @@
-/* Reset default margin dan padding untuk seluruh elemen */
-* {
+body {
     margin: 0;
     padding: 0;
- /* Mengatur box model untuk menghitung padding dan border */
-}
-
-/* Mengatur body */
-body {
-    font-family: Arial, sans-serif; /* Mengatur jenis font */
-    background-image: url('https://ipfs.io/ipfs/QmW8yPsDrmYNen4JbSRCEj9L8m3wAeKygdw7onPUeX5M3b'); /* Gambar latar belakang GIF */
-    background-size: cover; /* Menyesuaikan gambar latar belakang agar menutupi seluruh layar */
-    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
-    color: none; /* Warna teks */
+    background: url('https://ipfs.io/ipfs/QmW8yPsDrmYNen4JbSRCEj9L8m3wAeKygdw7onPUeX5M3b') no-repeat center center fixed; 
+    background-size: cover;
+    font-family: Arial, sans-serif;
 }
 
 /* Kontainer utama */
