@@ -1,7 +1,7 @@
 /* Mengatur body dengan latar belakang gif responsif */
 body {
     font-family: Arial, sans-serif; /* Mengatur jenis font */
-    background-image: url('path_to_your_background.gif'); /* Gambar latar belakang GIF */
+    background-image: url('https://ipfs.io/ipfs/QmW8yPsDrmYNen4JbSRCEj9L8m3wAeKygdw7onPUeX5M3b'); /* Gambar latar belakang GIF */
     background-size: contain; /* Menyesuaikan gambar latar belakang sesuai ukuran konten */
     background-repeat: no-repeat; /* Menghindari pengulangan gambar */
     background-position: top center; /* Memposisikan gambar di bagian atas dan tengah konten */
