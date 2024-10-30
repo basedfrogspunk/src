@@ -1,9 +1,11 @@
+/* Mengatur body dengan latar belakang gif responsif */
 body {
-    margin: 0;
-    padding: 0;
-    background: url('https://ipfs.io/ipfs/QmW8yPsDrmYNen4JbSRCEj9L8m3wAeKygdw7onPUeX5M3b') no-repeat center center fixed; 
-    background-size: cover;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* Mengatur jenis font */
+    background-image: url('path_to_your_background.gif'); /* Gambar latar belakang GIF */
+    background-size: contain; /* Menyesuaikan gambar latar belakang sesuai ukuran konten */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    background-position: top center; /* Memposisikan gambar di bagian atas dan tengah konten */
+    color: white; /* Warna teks */
 }
 
 /* Kontainer utama */
@@ -12,8 +14,11 @@ body {
     flex-direction: column; /* Mengatur arah kolom */
     align-items: center; /* Mengatur agar semua elemen terpusat */
     justify-content: center; /* Mengatur agar konten terpusat secara vertikal */
-    height: 100vh; /* Tinggi kontainer mengikuti tinggi viewport */
+    min-height: 100vh; /* Tinggi minimal agar konten berada di tengah layar */
+    max-width: 600px; /* Membatasi lebar agar tidak terlalu lebar */
+    margin: 0 auto; /* Memusatkan kontainer secara horizontal */
     text-align: center; /* Memusatkan teks */
+    padding: 20px; /* Memberikan jarak di dalam kontainer */
 }
 
 /* Gambar logo */
