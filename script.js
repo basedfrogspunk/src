@@ -26,9 +26,9 @@ connectButton.onclick = async () => {
             walletAddressElement.innerText = `Wallet Address: ${account}`;
             await updateBalance();
             connectButton.style.display = 'none'; // Sembunyikan tombol connect
-            disconnectButton.style.display = 'block'; // Tampilkan tombol disconnect
-            mintButton.style.display = 'block'; // Tampilkan tombol mint
-            document.getElementById('walletInfo').style.display = 'block'; // Tampilkan info wallet
+            disconnectButton.style.display = 'none'; // Tampilkan tombol disconnect
+            mintButton.style.display = 'none'; // Tampilkan tombol mint
+            document.getElementById('walletInfo').style.display = 'none'; // Tampilkan info wallet
         } catch (error) {
             console.error(error);
         }
