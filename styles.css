@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: orange; /* Latar belakang berwarna oranye */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh; /* Memastikan konten memenuhi tinggi viewport */
+    margin: 0; /* Menghapus margin default */
+}
+
+.container {
+    text-align: center; /* Teks terpusat */
+    padding: 20px; /* Ruang di sekitar konten */
+}
+
+.logo {
+    width: 200px; /* Ukuran logo */
+}
+
+.title {
+    font-size: 24px; /* Ukuran font untuk judul */
+    margin: 10px 0; /* Margin atas dan bawah */
+}
+
+.social-links {
+    margin: 20px 0; /* Margin atas dan bawah untuk tautan media sosial */
+}
+
+.social-links img {
+    width: 30px; /* Ukuran ikon media sosial */
+    margin: 0 10px; /* Margin antara ikon */
+}
+
+.nft-gallery {
+    display: grid; /* Menggunakan grid untuk galeri NFT */
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom yang sama */
+    gap: 10px; /* Jarak antara gambar */
+    margin: 20px 0; /* Margin atas dan bawah */
+}
+
+.nft-gallery img {
+    width: 100%; /* Mengisi lebar kolom */
+    border-radius: 5px; /* Sudut gambar melengkung */
+}
+
+.description {
+    font-weight: bold; /* Teks tebal */
+    margin: 20px 0; /* Margin atas dan bawah */
+}
+
+.gif {
+    width: 150px; /* Ukuran gambar GIF */
+    margin: 20px 0; /* Margin atas dan bawah */
+}
+
+.supply {
+    background-color: blue; /* Latar belakang untuk supply */
+    color: white; /* Warna teks */
+    padding: 10px; /* Ruang di sekitar teks */
+    border-radius: 5px; /* Sudut melengkung */
+}
+
+.button {
+    padding: 10px 15px; /* Ruang dalam tombol */
+    border: none; /* Tanpa border */
+    border-radius: 5px; /* Sudut melengkung */
+    cursor: pointer; /* Kursor menjadi pointer saat hover */
+    margin: 5px; /* Margin antara tombol */
+    font-size: 16px; /* Ukuran font tombol */
+}
+
+.connect {
+    background-color: green; /* Warna latar belakang tombol connect */
+    color: white; /* Warna teks tombol connect */
+}
+
+.mint {
+    background-color: blue; /* Warna latar belakang tombol mint */
+    color: white; /* Warna teks tombol mint */
+}
+
+.disconnect {
+    background-color: red; /* Warna latar belakang tombol disconnect */
+    color: white; /* Warna teks tombol disconnect */
+}
+
+.mint-quantity {
+    display: flex; /* Menggunakan flexbox untuk kontrol mint */
+    justify-content: center; /* Mencentralisasi kontrol mint */
+    align-items: center; /* Mencentralisasi kontrol mint secara vertikal */
+    margin: 10px 0; /* Margin atas dan bawah */
+}
