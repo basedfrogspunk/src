@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: none; /* Warna latar belakang utama */
+    background-color: #FF5722; /* Warna latar belakang utama */
     color: #FF5722;
     display: flex;
     justify-content: center;
@@ -74,6 +74,7 @@ body {
     font-size: 18px;
     margin: 20px 0;
     font-weight: bold;
+    color: #000;
 }
 
 .mint-quantity {
