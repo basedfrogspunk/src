@@ -1,0 +1,115 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif; /* Font untuk seluruh halaman */
+    background-color: #f8f8f8; /* Warna latar belakang halaman */
+    color: #333; /* Warna teks default */
+    text-align: center; /* Memusatkan teks */
+    margin: 0; /* Menghilangkan margin default */
+    padding: 0; /* Menghilangkan padding default */
+}
+
+.container {
+    max-width: 800px; /* Lebar maksimum kontainer */
+    margin: 0 auto; /* Memusatkan kontainer di tengah halaman */
+    padding: 20px; /* Padding di sekitar kontainer */
+}
+
+.logo {
+    width: 200px; /* Ukuran logo */
+    margin: 20px 0; /* Margin atas dan bawah */
+}
+
+.social-media {
+    margin: 20px 0; /* Margin di atas dan bawah untuk ikon media sosial */
+}
+
+.social-media img {
+    width: 40px; /* Ukuran ikon media sosial */
+    margin: 0 10px; /* Margin di kiri dan kanan */
+}
+
+.title {
+    font-size: 32px; /* Ukuran font untuk judul */
+    color: black; /* Warna teks untuk judul */
+    margin: 20px 0; /* Margin di atas dan bawah */
+}
+
+.nft-gallery {
+    display: grid; /* Menggunakan grid untuk galeri NFT */
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom untuk gambar NFT */
+    gap: 10px; /* Jarak antar gambar */
+    margin: 20px 0; /* Margin di atas dan bawah untuk galeri */
+}
+
+.nft-gallery img {
+    width: 100%; /* Gambar akan mengisi lebar kolom */
+    border-radius: 10px; /* Sudut melengkung untuk gambar */
+}
+
+.description {
+    color: black; /* Warna teks untuk deskripsi */
+    font-weight: bold; /* Membuat teks tebal */
+    margin: 20px 0; /* Margin di atas dan bawah */
+}
+
+.gif {
+    width: 100%; /* GIF akan mengisi lebar kontainer */
+    max-width: 500px; /* Lebar maksimal untuk GIF */
+    margin: 20px 0; /* Margin di atas dan bawah untuk GIF */
+}
+
+.supply {
+    font-size: 24px; /* Ukuran font untuk informasi supply */
+    margin: 20px 0; /* Margin di atas dan bawah */
+}
+
+.mint-control {
+    margin: 20px 0; /* Margin di atas dan bawah untuk kontrol minting */
+}
+
+.quantity-button {
+    background-color: white; /* Warna latar belakang untuk tombol */
+    border: 2px solid #011; /* Border tombol */
+    border-radius: 5px; /* Sudut melengkung pada tombol */
+    padding: 5px 10px; /* Padding di dalam tombol */
+    font-size: 18px; /* Ukuran font tombol */
+    cursor: pointer; /* Menampilkan kursor pointer pada hover */
+}
+
+.connect-wallet {
+    background-color: green; /* Warna latar belakang tombol Connect Wallet */
+    color: black; /* Warna teks untuk tombol Connect Wallet */
+    padding: 10px 20px; /* Padding di dalam tombol */
+    border: none; /* Menghilangkan border default */
+    border-radius: 5px; /* Sudut melengkung pada tombol */
+    font-size: 16px; /* Ukuran font tombol */
+    cursor: pointer; /* Menampilkan kursor pointer pada hover */
+    margin: 20px 0; /* Margin di atas dan bawah */
+}
+
+.wallet-info {
+    margin: 20px 0; /* Margin di atas dan bawah untuk informasi wallet */
+}
+
+.mint-button {
+    background-color: #001EC3; /* Warna latar belakang untuk tombol Mint NFT */
+    color: black; /* Warna teks untuk tombol Mint NFT */
+    padding: 10px 20px; /* Padding di dalam tombol */
+    border: none; /* Menghilangkan border default */
+    border-radius: 5px; /* Sudut melengkung pada tombol */
+    font-size: 16px; /* Ukuran font tombol */
+    cursor: pointer; /* Menampilkan kursor pointer pada hover */
+    display: none; /* Sembunyikan tombol hingga wallet terhubung */
+    margin: 20px 0; /* Margin di atas dan bawah */
+}
+
+.disconnect-button {
+    background-color: red; /* Warna latar belakang untuk tombol Disconnect */
+    color: black; /* Warna teks untuk tombol Disconnect */
+    padding: 10px 20px; /* Padding di dalam tombol */
+    border: none; /* Menghilangkan border default */
+    border-radius: 5px; /* Sudut melengkung pada tombol */
+    font-size: 16px; /* Ukuran font tombol */
+    cursor: pointer; /* Menampilkan kursor pointer pada hover */
+    margin: 20px 0; /* Margin di atas dan bawah */
+}
