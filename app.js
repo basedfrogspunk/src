@@ -5,7 +5,7 @@ let userAccount;
 let currentSupply = 0;
 const maxSupply = 4444;
 let mintAmount = 1; // Default jumlah mint
-const contractAddress = 'ALAMAT_KONTRAK_ANDA'; // Ganti dengan alamat kontrak NFT Anda
+const contractAddress = '0xB3d6EabdD39881Cf5d60Da343DD39C7e2E7a9975'; // Ganti dengan alamat kontrak NFT Anda
 
 // ABI dari kontrak pintar
 const contractABI = [
