@@ -12,7 +12,7 @@ body {
     text-align: center;
     padding: 20px;
     border: 1px solid #ddd;
-    background-color: #fff; /* Container tetap putih agar kontras */
+    background-color: none; /* Container tetap putih agar kontras */
     border-radius: 8px;
 }
 
@@ -20,6 +20,7 @@ body {
     width: 100px;
     height: auto;
     margin-bottom: 20px;
+    justify-content: center;
 }
 
 .social-icons {
@@ -44,6 +45,7 @@ h1 {
     font-size: 24px;
     margin: 15px 0;
     color: #011;
+    justify-content: center;
 }
 
 .nft-gallery {
@@ -51,6 +53,7 @@ h1 {
     grid-template-columns: repeat(3, 1fr); /* 3 kolom */
     gap: 15px;
     margin: 20px 0;
+    justify-content: center;
 }
 
 .nft-image {
@@ -71,6 +74,7 @@ h1 {
     color: #011;
     margin-top: 20px;
     line-height: 1.5; /* Spasi antar baris */
+    justify-content: center;
 }
 
 .project-gif {
@@ -78,6 +82,7 @@ h1 {
     height: auto;
     margin-top: 20px;
     border-radius: 8px;
+    justify-content: center;
 }
 
 .supply-counter {
@@ -89,6 +94,7 @@ h1 {
     border-radius: 8px;
     display: inline-block; /* Agar tampil di tengah */
     margin-top: 15px;
+    justify-content: center;
 }
 
 .mint-quantity {
