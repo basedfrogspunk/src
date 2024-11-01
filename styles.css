@@ -75,15 +75,14 @@ h1 {
 }
 
 button {
-    justify-content: center;
     padding: 10px 20px;
     border: none;
+    justify-content: center;
     border-radius: 5px;
     cursor: pointer;
 }
 
 #decreaseButton, #increaseButton {
-    justify-content: center;
     background-color: white; /* Latar belakang tombol tambah/kurang */
     color: black; /* Teks hitam */
     margin: 0 10px; /* Spasi antara tombol */
