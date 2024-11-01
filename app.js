@@ -31,6 +31,7 @@ async function connectWallet() {
         document.getElementById('walletInfo').style.display = 'block'; // Menampilkan informasi wallet
         document.getElementById('connectWallet').style.display = 'none'; // Menyembunyikan tombol Connect Wallet
         document.getElementById('mintNFT').style.display = 'block'; // Menampilkan tombol Mint NFT
+        document.getElementById('disconnectWallet').style.display = 'block'; // Menampilkan tombol Disconnect Wallet
         updateSupplyCount(); // Memperbarui count supply
     } else {
         alert('Please install MetaMask!'); // Peringatan jika MetaMask tidak terdeteksi
@@ -44,6 +45,7 @@ function disconnectWallet() {
     document.getElementById('walletInfo').style.display = 'none'; // Menyembunyikan informasi wallet
     document.getElementById('connectWallet').style.display = 'block'; // Menampilkan tombol Connect Wallet
     document.getElementById('mintNFT').style.display = 'none'; // Menyembunyikan tombol Mint NFT
+    document.getElementById('disconnectWallet').style.display = 'none'; // Menyembunyikan tombol Disconnect Wallet
 }
 
 // Fungsi untuk mengubah jumlah NFT yang ingin di-mint
@@ -113,3 +115,4 @@ function manageMintPhase() {
 
 // Panggil fungsi manageMintPhase saat memulai
 manageMintPhase();
+
