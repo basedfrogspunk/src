@@ -68,21 +68,25 @@ body {
     cursor: pointer; /* Kursor menjadi pointer saat hover */
     margin: 5px; /* Margin antara tombol */
     font-size: 16px; /* Ukuran font tombol */
+    justify-content: center;
 }
 
 .connect {
     background-color: green; /* Warna latar belakang tombol connect */
     color: white; /* Warna teks tombol connect */
+    justify-content: center;
 }
 
 .mint {
     background-color: blue; /* Warna latar belakang tombol mint */
     color: white; /* Warna teks tombol mint */
+    justify-content: center;
 }
 
 .disconnect {
     background-color: red; /* Warna latar belakang tombol disconnect */
     color: white; /* Warna teks tombol disconnect */
+    justify-content: center;
 }
 
 .mint-quantity {
