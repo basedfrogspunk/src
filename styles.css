@@ -17,11 +17,6 @@ body {
     text-align: center;
 }
 
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
 .logo {
     width: 200px; /* Sesuaikan ukuran logo */
     margin-bottom: 20px;
@@ -39,9 +34,9 @@ h1 {
     height: 40px; /* Ukuran ikon media sosial */
 }
 
-h2 {
-    font-size: 2em;
-    margin: 20px 0;
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
 }
 
 .nft-images {
@@ -90,24 +85,28 @@ button {
     background-color: white; /* Latar belakang tombol tambah/kurang */
     color: black; /* Teks hitam */
     margin: 0 10px; /* Spasi antara tombol */
+    justify-content: center;
 }
 
 #connectButton {
     background-color: #2ecc71; /* Latar belakang hijau untuk tombol Connect Wallet */
     color: white; /* Teks putih */
     margin-top: 20px;
+    justify-content: center;
 }
 
 #mintButton {
     background-color: #3498db; /* Latar belakang biru untuk tombol Mint NFT */
     color: white; /* Teks putih */
     margin-top: 20px;
+    justify-content: center;
 }
 
 #disconnectButton {
     background-color: #e74c3c; /* Latar belakang merah untuk tombol Disconnect */
     color: white; /* Teks putih */
     margin-top: 20px;
+    justify-content: center;
 }
 
 .mint-price, .stage-info, .status {
