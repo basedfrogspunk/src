@@ -86,14 +86,15 @@ h1 {
 }
 
 .supply-counter {
-    justify-content: center;
+    display: flex; /* Menambahkan display flex untuk memudahkan pengaturan posisi */
+    align-items: center; /* Vertikal tengah */
+    justify-content: center; /* Horizontal tengah */
     font-size: 18px;
     font-weight: 600;
     background-color: #007BFF; /* Background biru untuk supply */
     color: black;
     padding: 10px;
     border-radius: 8px;
-    display: inline-block; /* Agar tampil di tengah */
     margin-top: 15px;
 }
 
