@@ -6,8 +6,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #FF5722; /* Warna latar belakang utama */
-    color: #3A00A2;
+    background-color: none; /* Warna latar belakang utama */
+    color: #FF5722;
     display: flex;
     justify-content: center;
     align-items: center;
