@@ -95,7 +95,7 @@ body {
 }
 
 .quantity-button:hover {
-    background-color: #ddd; /* Warna latar belakang saat hover */
+    background-color: #000; /* Warna latar belakang saat hover */
 }
 
 .connect-wallet-button, .mint-button, .disconnect-button {
