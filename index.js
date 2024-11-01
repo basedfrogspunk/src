@@ -2,7 +2,7 @@ const { createThirdwebClient, ConnectButton, darkTheme, createWallet, ethereum, 
 
 // Konfigurasi Thirdweb Client
 const client = createThirdwebClient({
-  clientId: "....",  // Masukkan clientId kamu di sini
+  clientId: "0962c4cf2f928af161be0d939a6e6573",  // Masukkan clientId kamu di sini
 });
 
 const wallets = [
