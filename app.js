@@ -25,10 +25,14 @@ function updateMintAmount(amount) {
 async function connectWallet() {
     if (window.ethereum) {
         try {
+            // Meminta akses akun
             await window.ethereum.request({ method: 'eth_requestAccounts' });
+
+            // Membuat instance Web3 dan kontrak
             web3 = new Web3(window.ethereum);
             contract = new web3.eth.Contract(abi, contractAddress);
 
+            // Mendapatkan akun yang terhubung
             const accounts = await web3.eth.getAccounts();
             const account = accounts[0];
 
@@ -37,6 +41,9 @@ async function connectWallet() {
             connectWalletButton.style.display = 'none'; // Sembunyikan tombol connect
             mintButton.style.display = 'block'; // Tampilkan tombol mint
             disconnectButton.style.display = 'block'; // Tampilkan tombol disconnect
+
+            // Menampilkan status berhasil
+            statusMessage.textContent = "Connected to wallet.";
         } catch (error) {
             console.error("Connection failed", error);
             statusMessage.textContent = "Connection failed. Please try again.";
@@ -64,7 +71,7 @@ async function mintNFT() {
 
     // Menentukan harga berdasarkan fase
     try {
-        const phase = await contract.methods.currentPhase().call();
+        const phase = await contract.methods.phase().call(); // Pastikan fungsi phase() ada dalam ABI kontrak Anda
         if (phase == 0) { // FreeMint
             price = 0;
         } else if (phase == 1) { // PhaseTwo
@@ -100,3 +107,4 @@ document.getElementById('decrementButton').addEventListener('click', () => updat
 connectWalletButton.addEventListener('click', connectWallet);
 disconnectButton.addEventListener('click', disconnectWallet);
 mintButton.addEventListener('click', mintNFT);
+
