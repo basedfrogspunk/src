@@ -84,12 +84,11 @@ h1 {
     font-size: 18px;
     font-weight: 600;
     background-color: #007BFF; /* Background biru untuk supply */
-    color: white;
+    color: black;
     padding: 10px;
     border-radius: 8px;
-    display: inline-block; /* Agar tampil di tengah */
-    margin-top: 15px;
     justify-content: center;
+    margin-top: 15px;
 }
 
 .mint-quantity {
