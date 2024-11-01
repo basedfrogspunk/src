@@ -25,28 +25,19 @@ function updateMintAmount(amount) {
 async function connectWallet() {
     if (window.ethereum) {
         try {
-            // Meminta akses akun
-            await window.ethereum.request({ method: 'eth_requestAccounts' });
-
-            // Membuat instance Web3 dan kontrak
+            const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
             web3 = new Web3(window.ethereum);
             contract = new web3.eth.Contract(abi, contractAddress);
-
-            // Mendapatkan akun yang terhubung
-            const accounts = await web3.eth.getAccounts();
             const account = accounts[0];
-
             walletInfo.textContent = `Wallet: ${account}`;
             walletInfo.style.display = 'block';
             connectWalletButton.style.display = 'none'; // Sembunyikan tombol connect
             mintButton.style.display = 'block'; // Tampilkan tombol mint
             disconnectButton.style.display = 'block'; // Tampilkan tombol disconnect
-
-            // Menampilkan status berhasil
             statusMessage.textContent = "Connected to wallet.";
         } catch (error) {
             console.error("Connection failed", error);
-            statusMessage.textContent = "Connection failed. Please try again.";
+            statusMessage.textContent = error.message || "Connection failed. Please try again.";
         }
     } else {
         alert("Please install MetaMask!");
@@ -66,12 +57,12 @@ function disconnectWallet() {
 async function mintNFT() {
     const accounts = await web3.eth.getAccounts();
     const account = accounts[0];
-    
+
     let price;
 
     // Menentukan harga berdasarkan fase
     try {
-        const phase = await contract.methods.phase().call(); // Pastikan fungsi phase() ada dalam ABI kontrak Anda
+        const phase = await contract.methods.currentPhase().call();
         if (phase == 0) { // FreeMint
             price = 0;
         } else if (phase == 1) { // PhaseTwo
