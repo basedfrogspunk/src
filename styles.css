@@ -75,6 +75,7 @@ h1 {
 }
 
 button {
+    justify-content: center;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -82,31 +83,31 @@ button {
 }
 
 #decreaseButton, #increaseButton {
+    justify-content: center;
     background-color: white; /* Latar belakang tombol tambah/kurang */
     color: black; /* Teks hitam */
     margin: 0 10px; /* Spasi antara tombol */
-    justify-content: center;
 }
 
 #connectButton {
+    justify-content: center;
     background-color: #2ecc71; /* Latar belakang hijau untuk tombol Connect Wallet */
     color: white; /* Teks putih */
     margin-top: 20px;
-    justify-content: center;
 }
 
 #mintButton {
+    justify-content: center;
     background-color: #3498db; /* Latar belakang biru untuk tombol Mint NFT */
     color: white; /* Teks putih */
     margin-top: 20px;
-    justify-content: center;
 }
 
 #disconnectButton {
+    justify-content: center;
     background-color: #e74c3c; /* Latar belakang merah untuk tombol Disconnect */
     color: white; /* Teks putih */
     margin-top: 20px;
-    justify-content: center;
 }
 
 .mint-price, .stage-info, .status {
