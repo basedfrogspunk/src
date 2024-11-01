@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FF5722; /* Warna latar belakang utama */
+    color: #3A00A2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    text-align: center;
+    background-color: #fff; /* Warna latar belakang kontainer */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 150px; /* Atur lebar logo */
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.icon {
+    width: 30px; /* Ukuran ikon sosial media */
+    margin: 0 10px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000; /* Warna judul */
+    margin-bottom: 20px;
+}
+
+.nft-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.nft-image {
+    width: 100%; /* Memastikan gambar menyesuaikan lebar kolom */
+    border-radius: 8px;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: bold; /* Teks tebal untuk deskripsi */
+    color: #000; /* Warna teks deskripsi */
+    margin: 20px 0;
+}
+
+.gif-image {
+    width: 200px; /* Ukuran gambar GIF */
+    margin: 20px auto;
+}
+
+.supply-counter {
+    font-size: 18px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.mint-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.quantity-button {
+    background-color: #fff; /* Warna tombol - */
+    color: #000; /* Warna teks tombol */
+    border: 2px solid #000; /* Garis tepi hitam */
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold; /* Teks tebal */
+}
+
+.quantity-button:hover {
+    background-color: #ddd; /* Warna latar belakang saat hover */
+}
+
+.connect-wallet-button, .mint-button, .disconnect-button {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.connect-wallet-button {
+    background-color: green; /* Warna tombol Connect Wallet */
+    color: #fff; /* Warna teks tombol */
+}
+
+.mint-button {
+    background-color: #001EC3; /* Warna tombol Mint NFT */
+    color: #fff; /* Warna teks tombol */
+}
+
+.disconnect-button {
+    background-color: red; /* Warna tombol Disconnect */
+    color: #fff; /* Warna teks tombol */
+}
+
+.wallet-info {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #000; /* Warna teks informasi wallet */
+}
+
+.status-message {
+    font-size: 14px;
+    color: #ff0000; /* Warna merah untuk pesan status */
+    margin-top: 10px;
+}
