@@ -18,7 +18,7 @@ contract CheeseFrogsNFT is ERC721, Ownable {
     // Event for Minting
     event Minted(address indexed owner, uint256 indexed tokenId);
 
-    constructor() ERC721("CheeseFrogs", "CHEESE") {}
+    constructor() ERC721("CheeseFrogs", "CFrogs") {}
 
     function mint(uint256 amount) external payable {
         require(totalSupply() + amount <= MAX_SUPPLY, "Exceeds max supply");
