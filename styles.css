@@ -18,9 +18,10 @@ body {
 
 .logo {
     justify-content: center;
-    width: 100px;
+    width: 100px; /* Ukuran logo */
     height: auto;
     margin-bottom: 20px;
+    display: block; /* Pastikan logo dapat ditampilkan sebagai block untuk memudahkan penempatan */
 }
 
 .social-icons {
